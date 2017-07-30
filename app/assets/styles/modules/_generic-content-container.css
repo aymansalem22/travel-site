@@ -1,0 +1,15 @@
+.generic-content-container{
+  p{
+    /* سد الفراغات في النص نفسة بين الاسطر  بشكل افقي*/
+    line-height: 1.65;
+
+    margin: 1.8rem 0;
+    @mixin atSmall{
+        font-size: 1.125rem;
+    }
+  }
+  p a{
+    /*اي لينك داخل الفقرة */
+    font-weight: 700;
+  }
+}
