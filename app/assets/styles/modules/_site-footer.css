@@ -1,0 +1,22 @@
+.site-footer{
+  background-color: $mainBlue;
+  color: #fff;
+  /*.5 distanse bootom and above to text -0 with left text */
+  padding: 0 0 1rem 0;
+  text-align: center;
+
+
+/*this when see in mobile */
+  &__text{
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 200;
+
+
+    @mixin atMedium{
+      display: inline; /* to be button beside text not in bottom */
+      margin-bottom: 0;
+      margin-right: 1.4rem; /* between button and text */
+    }
+  }
+}
